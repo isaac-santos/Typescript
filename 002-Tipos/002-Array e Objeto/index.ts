@@ -1,4 +1,4 @@
-let array1: [string, string, number, boolean] = ["Isaac", "teste", 123, true]// para o array é necessário informa os tipos para cada campo
+let array1: [string, string, number, boolean] = ["Isaac", "teste", 123, true]// para o array é necessário informa os tipos para cada campo, esse se cham tupla
 
 let array2: Array<string | number | boolean> = [true, "Isaac", 123, "Santos"];// desta maneira, podemos preencher o Array apenas com strings
 
