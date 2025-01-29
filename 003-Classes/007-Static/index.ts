@@ -11,11 +11,13 @@ class Utils {
     }
 }
 
-class Pessoa{
-    public variasPessoas(){
-        Utils.cloneObject([..., ..., ...])
-    }
-}
+// class Pessoa{
+//     public variasPessoas(){
+//         Utils.cloneObject([..., ..., ...])
+//     }
+// }
+
+const utils = new Utils()
 
 const tenis1: {tamanho: number, estoque: boolean} = {
     tamanho: 41,
@@ -27,4 +29,4 @@ const tenis2: {tamanho: number, estoque: boolean} = {
     estoque: false
 }
 
-console.log(Utils.cloneObject([tenis1, tenis2]));
+console.log(utils.cloneObject([tenis1, tenis2]));
