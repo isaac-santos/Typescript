@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "target": "ES2023" /* Definir a versão da linguagem JavaScript e inclui declarações de biblioteca*/,
+        "module": "CommonJS" /* Especifica qual código de módulo é gerado.*/,
+        "baseUrl": "./" /* Especifique o diretório base para resolver nomes de módulos não relativos.*/,
+        "outDir": "./dist" /* Especifique uma pasta de saída para todos os arquivos emitidos.*/,
+
+        // Back-end
+        "declaration": true /* Gera arquivos .d.ts do TypeScript e JavaScript no seu projeto*/,
+        "sourceMap": true /* Crie arquivos de mapa de origem para arquivos JavaScript emitidos.*/,
+
+        "forceConsistentCasingInFileNames": true /* Assegura-se que as maiúsculas estejam*/,
+        "strict": true /* Habilita todas as opções rígidas de verificação de tipo.*/,
+        "noImplicitOverride": true /* Certifica-se que os membros de substituição em classes deriva*/,
+        "noPropertyAccessFromIndexSignature": true /* Aplica o uso de acessadores indexados para chaves*/,
+        "noImplicitReturns": true /* Habilita o relatório de erros para codepaths que não retornam expl*/,
+        "noFallthroughCasesInSwitch": true /**/,
+        "downlevelIteration": true /**/,
+        "emitDecoratorMetadata": true /**/,
+        "experimentalDecorators": true /**/,
+        "moduleResolution": "node" /**/,
+        "importHelpers": true /**/,
+        "useDefineForClassFields": true /**/,
+        "removeComments": true /**/,
+        "allowSyntheticDefaultImports": true /**/,
+        "skipLibCheck": true /**/,
+        "strictNullChecks": true /**/,
+        "noImplicitAny": true /**/,
+        "esModuleInterop": true /**/,
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules", "./dist"],
+    "lib": ["ES2023", "dom"]
+}
+
+// npm init para criar o package
+// npm i typescript para rodar a dependência do typescript
+// "build": "npx tsc --build" - criado na aula
